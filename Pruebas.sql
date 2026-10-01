@@ -44,3 +44,6 @@ SELECT * FROM Auditoria.Logs_Creditos;
 SELECT IdCredito, TasaInteresMensual
 FROM Operaciones.Creditos
 WHERE IdCredito = 1;
+
+SELECT TOP 10 *
+FROM Operaciones.vw_AtencionAlCliente;
