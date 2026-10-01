@@ -5,8 +5,8 @@ import pyodbc
 # 1. Configuración de Conexión (Cambien estos datos por los de su Ubuntu/Docker)
 SERVER = '192.168.0.105'
 DATABASE = 'CrediCore'
-USERNAME = 'CrediCoreDev'
-PASSWORD = 'CrediCore#2026Dev!'
+USERNAME = 'NO SUBIDO A GIT'
+PASSWORD = 'NO SUBIDO A GIT'
 
 conn_str = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}'
 
